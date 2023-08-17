@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "dyeables",
+  "version": "${version}",
+
+  "name": "Dyeables",
+  "description": "A mod for better dyeing",
+  "authors": [
+    "samsthenerd"
+  ],
+  "contact": {
+    "homepage": "https://github.com/SamsTheNerd/dyeables",
+    "sources": "https://github.com/SamsTheNerd/dyeables"
+  },
+
+  "license": "lgpl-3",
+  "icon": "IconWNBOI.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.samsthenerd.dyeables.DyeablesFabric"
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+    "dyeables.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric-api": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}

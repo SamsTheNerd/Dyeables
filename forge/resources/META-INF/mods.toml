@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "LGPL-3.0-only"
+issueTrackerURL = "https://github.com/SamsTheNerd/ducky-periphs/issues"
+showAsResourcePack = false
+
+[[mods]]
+modId = "dyeables"
+version = "${version}"
+displayName = "Dyeables"
+authors = "samsthenerd"
+description = '''
+A mod for better dyeing
+'''
+logoFile = "IconWNBOI.png"
+
+[[dependencies.dyeables]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dyeables]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "BOTH"

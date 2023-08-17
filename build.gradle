@@ -58,7 +58,6 @@ allprojects {
     }
 }
 
-
 ext.trimChangelog = { changelogString -> 
     String changelogSec = ""
     def lines = changelogString.split("\n")

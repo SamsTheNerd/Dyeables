@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.samsthenerd.dyeables.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+      "MixinExposeDyeColorConstructor"
+    ],
+    "client": [
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }
+  

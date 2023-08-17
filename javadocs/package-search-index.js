@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.samsthenerd.dyeables"},{"l":"com.samsthenerd.dyeables.api"},{"l":"com.samsthenerd.dyeables.expandedDyeing"},{"l":"com.samsthenerd.dyeables.impl"},{"l":"com.samsthenerd.dyeables.items"},{"l":"com.samsthenerd.dyeables.mixin"}];updateSearchResults();
